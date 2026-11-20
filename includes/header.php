@@ -1,24 +1,38 @@
-<aside>
-    <h2>Notices</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- we add the viewport meta tag-->
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+  <title><?php echo $page_title; ?> - Ereteti Dairy Sacco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- placeholder: swap for img/favicon.png -->
+  <link rel="icon" type="image/png"
+        href="img/favicon-edairy.png">
+</head>
+<body>
+
+  <header>
+    <h1><?php echo $page_title; ?></h1>
+      <!-- placeholder: swap for img/logo.png -->
+      <img src="img/logo-edairy.png"
+           alt="" class="logo">  
+    <p>Milk collected twice a day, on three routes
+       out of Ngong.</p>
+  </header>
+
+  <nav>
     <ul>
-      <li>Milk is paid at
-          <strong>KSh 52.00 a litre</strong>
-          from 1 October 2026.</li>
-      <li>Annual General Meeting: Saturday
-          17 October, 10 a.m., at the
-          Kiserian collection centre.</li>
-      <li>New members:
-          <a href="register.php">apply to join</a>.
-          You need a national ID and a
-          bank account.</li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="routes.php">Routes</a></li>
+      <li><a href="contact.php">Contact</a></li>
+      <li><a href="register.php">Join us</a></li>
+      <li><a href="deliveries.php">Deliveries</a>
+      </li>
     </ul>
-  </aside>
-
-  <footer>
-    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <p>Site built by <em>Your Name</em>,
-       DBT Year 1, 2026.</p>
-  </footer>
-
-</body>
-</html>
+  </nav>

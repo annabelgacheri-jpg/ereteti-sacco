@@ -16,7 +16,7 @@
 
   <footer>
     <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <p>Site built by <em>Your Name</em>,
+    <p>Site built by <em>Cynthia Kaguchia</em>,
        DBT Year 1, 2026.</p>
   </footer>
 

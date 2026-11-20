@@ -1,21 +1,21 @@
 <?php
-$page_title = 'register for membership';
+$page_title = 'Apply for membership';
 include 'includes/header.php';
 ?>
 <main>
   <h2>Join Ereteti Dairy Sacco</h2>
   <p>Fill in the form and the office will contact you.</p>
 
-  <form action="process-register.php" method="get">
+  <form action="process-register.php" method="post">
 
     <p>
-      <label for="first-name">First name</label><br>
-      <input type="text" id="first-name" name="first_name" required>
+      <label for="first_name">First name</label><br>
+      <input type="text" id="first_name" name="first_name" required>
     </p>
 
     <p>
-      <label for="last-name">Last name</label><br>
-      <input type="text" id="last-name" name="last_name" required>
+      <label for="last_name">Last name</label><br>
+      <input type="text" id="last_name" name="last_name" required>
     </p>
 
     <p>

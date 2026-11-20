@@ -1,23 +1,15 @@
 <?php
-$page_title = 'Contact us';
-include 'includes/header.php';
-?>
-    <header>
-        <h1>Where to find us</h1>
-    </header>
+  $page_title = "Contact us";
+  include("includes/header.php");
+  ?>
+  <main>
     <section>
-        <address>
-Ereteti Dairy Sacco<br>
-PO Box 4021<br>
-Ngong, Kajiado County
-</address>
-<ul>
-<li><a href="tel:__">0720 000 000</a> — the office</li>
-<li><a href="tel:+254733000000">0733 000 000</a> — the Kiserian centre</li>
-</ul>
-<h2>Email us</h2>
-<p>Write to the secretary and we will answer within two working days.</p>
-<a href="mailto:secretary@eretetidairy.co.ke">secretary@eretetidairy.co.ke</a>
-    </section>
+      <h2>Contact us</h2>
+      <p>We are happy to answer any questions you may have about
+         our services. You can reach us by phone, email or post.</p>
+      <p>Phone: +254 722 123456</p>
+      <p>Postal address: PO Box 4021, Ngong, Kenya</p>
+<p>Email the secretary: <a href="mailto:secretary@ereteti.co.ke">secretary@ereteti.co.ke</a></p>
+</section>
 </main>
 <?php include 'includes/footer.php'; ?>

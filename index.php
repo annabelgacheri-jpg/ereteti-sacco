@@ -1,9 +1,5 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-$page_title = 'Welcome to Ereteti Dairy SACCO';
+$page_title = 'Welcome to Ereteti Dairy Sacco';
 include 'includes/header.php';
 ?>
   <main>
@@ -33,5 +29,4 @@ include 'includes/header.php';
                 the Kiserian centre">
     </section>
   </main>
-
-  <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
