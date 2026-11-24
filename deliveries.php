@@ -8,7 +8,7 @@ FROM milk_delivery d
 JOIN farmer f ON f.farmer_id = d.farmer_id
 WHERE d.delivery_date = '2026-10-12'
 ORDER BY f.member_no, d.session";
-$result = mysq  li_query($conn, $sql);
+$result = mysqli_query($conn, $sql);
 ?>
 
   <main>
